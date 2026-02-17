@@ -1,11 +1,6 @@
 *.kicad_prl
-*.kicad_pro-bak
-*-cache.lib
-*.net
+*.kicad_pcb-bak
 *.bak
 *.tmp
-*.gbr
-*.drl
-*.zip
-.DS_Store
-Thumbs.db
+*.lck
+fp-info-cache
