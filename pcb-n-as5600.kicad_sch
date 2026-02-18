@@ -2879,6 +2879,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4245,16 +4328,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 149.86) (xy 109.22 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ba07ea-9e3c-440f-bf19-ad8507ff3621")
-	)
-	(wire
-		(pts
 			(xy 92.71 138.43) (xy 93.98 138.43)
 		)
 		(stroke
@@ -4495,6 +4568,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88229831-7969-4788-8d9e-44bbd76c52ab")
+	)
+	(wire
+		(pts
 			(xy 45.72 38.1) (xy 48.26 38.1)
 		)
 		(stroke
@@ -4502,6 +4585,16 @@
 			(type default)
 		)
 		(uuid "8ac92797-6202-4a8c-b31f-f964ce79a50f")
+	)
+	(wire
+		(pts
+			(xy 168.91 110.49) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b53af29-a02d-4e07-87f7-cd9f6246f83d")
 	)
 	(wire
 		(pts
@@ -4863,16 +4956,6 @@
 		)
 		(uuid "fe392b37-7a52-4fad-8e0a-d85826ff45b5")
 	)
-	(label "3.3V"
-		(at 168.91 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c3771c1-1f89-4cd0-9744-02910279f72b")
-	)
 	(label "OSC_OUT"
 		(at 161.29 128.27 180)
 		(effects
@@ -4912,16 +4995,6 @@
 			(justify left bottom)
 		)
 		(uuid "303f58d1-0ccb-4959-a9d3-c9bc076617b1")
-	)
-	(label "3.3V"
-		(at 93.98 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35460d9e-d53e-4500-a9c4-42ed885e235e")
 	)
 	(label "OSC_IN"
 		(at 29.21 55.88 180)
@@ -5003,16 +5076,6 @@
 		)
 		(uuid "8c4c5bf8-683f-435b-bd67-ea9dbeb9f0e7")
 	)
-	(label "3.3V"
-		(at 168.91 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "921e665b-ce7c-4c87-8de5-52345f1ef170")
-	)
 	(label "OUT"
 		(at 147.32 140.97 0)
 		(effects
@@ -5042,16 +5105,6 @@
 			(justify left bottom)
 		)
 		(uuid "a264464d-13c2-4bf8-8785-3b95c84a654e")
-	)
-	(label "3.3V"
-		(at 109.22 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4659554-3d24-434c-bf06-41e03b961c92")
 	)
 	(label "GND"
 		(at 168.91 113.03 0)
@@ -5093,16 +5146,6 @@
 		)
 		(uuid "b328391a-6c00-48cf-b8de-8481261d3b46")
 	)
-	(label "3.3V"
-		(at 116.84 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b891ea78-3349-4221-b683-ecc2d782a5ae")
-	)
 	(label "GND"
 		(at 161.29 76.2 0)
 		(effects
@@ -5133,16 +5176,6 @@
 		)
 		(uuid "c7f2dcba-ea5c-4455-bdbc-e639aaec8f97")
 	)
-	(label "3.3V"
-		(at 109.22 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf159b4e-d5ce-4aa2-b172-ac9dbc202137")
-	)
 	(label "GND"
 		(at 168.91 113.03 0)
 		(effects
@@ -5162,16 +5195,6 @@
 			(justify left bottom)
 		)
 		(uuid "e6ab1a9a-adbd-4d04-a3c1-ea3bd08f6eb1")
-	)
-	(label "3.3V"
-		(at 123.19 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f792022a-1d00-4a4e-aad8-0dd9b8f5f3cd")
 	)
 	(label "GND"
 		(at 139.7 157.48 0)
@@ -5912,6 +5935,22 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 223.52 66.04) (xy 182.88 66.04) (xy 182.88 92.71) (xy 223.52 92.71)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 5 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a75038d5-9272-437e-8535-b605983505f9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 13.335 13.97) (xy 99.695 13.335) (xy 100.0124 129.2224) (xy 13.6524 129.2224)
 			)
 			(stroke
@@ -6154,6 +6193,70 @@
 			(project "pcb-n-as5600"
 				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 207.01 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12376fb0-fd0e-40fb-8c6b-82dedad0f16f")
+		(property "Reference" "H4"
+			(at 209.55 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 209.55 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7011,6 +7114,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 134.62 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1620ab-f128-4f8f-aef6-156b306d6894")
+		(property "Reference" "#PWR014"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d5300d8-cfca-4a6c-a135-06a25e09962c")
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 170.18 26.67 0)
 		(mirror y)
@@ -7855,6 +8024,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 109.22 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79e690d8-d6cf-407e-a515-8d2dbc993c1c")
+		(property "Reference" "#PWR07"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 109.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08eb3159-ecc3-4bf0-b2c5-00a8670823e6")
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 129.54 90.17 0)
 		(mirror y)
@@ -7920,6 +8155,70 @@
 			(project "pcb-n-as5600"
 				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 207.01 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f87a02-ad85-4b2f-8688-b00bcd27d12a")
+		(property "Reference" "H1"
+			(at 209.55 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 209.55 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8131,6 +8430,70 @@
 			(project "pcb-n-as5600"
 				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 189.23 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "941789b6-d9c1-4ab4-80d4-854136d8d8f9")
+		(property "Reference" "H3"
+			(at 191.77 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 191.77 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8668,6 +9031,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 93.98 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d54353-a46f-41c0-8050-22705e0491a7")
+		(property "Reference" "#PWR012"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa45e4fc-b243-47b4-8f4e-2d540479e26a")
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 176.53 26.67 0)
 		(mirror y)
@@ -8733,6 +9162,71 @@
 			(project "pcb-n-as5600"
 				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 172.72 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9f50255-a8e4-4385-9fec-2229d0fa704a")
+		(property "Reference" "#PWR013"
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 175.768 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fd44154-4d85-4381-be0d-5df0e6821ded")
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8807,6 +9301,72 @@
 			(project "pcb-n-as5600"
 				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 109.22 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4ce7647-0918-472a-be1d-1da04b3c3cc2")
+		(property "Reference" "#PWR011"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0114157e-b5d5-4b8d-b640-678982f1f694")
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8958,6 +9518,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 189.23 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7f6fea1-255c-46e6-83c7-3f86b372f750")
+		(property "Reference" "H2"
+			(at 191.77 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 191.77 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 163.83 20.32 0)
 		(unit 1)
@@ -9018,6 +9642,72 @@
 			(project ""
 				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 116.84 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd229fda-7147-4906-aeb0-a8a777a88fa9")
+		(property "Reference" "#PWR06"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5da613f3-801e-48db-a4da-c3535bf1f01e")
+		)
+		(instances
+			(project "pcb-n-as5600"
+				(path "/7e085dd9-d967-41b4-bf52-890a11e1627c"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
