@@ -1,11 +1,20 @@
-Product,SKU,Quantity,Unit Price,Amount,Link,Vendor
-STM32F103C8TX,ST2103SD0969,1,118.75,118.75,https://sharvielectronics.com/product/stm32f103c8t6-arm-microcontroller-lqfp-48-package/,
-AS5600,ST2010SM1805,1,135.91,135.91,https://sharvielectronics.com/product/as5600-12-bit-magnetic-encoder-sensor-module/?srsltid=AfmBOopLD3kcBAguMbwAF6vNIL0KiNEwYuEgTa045MsQERhmEjwYB5gb,
-AMS1117,162032,1,9,9,https://robu.in/product/ams1117-3-3v-1a-sot-223-voltage-regulator-ic-pack-of-5-ics/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWfl8if6hvNMNUuoxmtibwOzA&gclid=Cj0KCQiAhtvMBhDBARIsAL26pjETi2vRUSnR9fzH--60Ql53IeD79rQYQ2YAXWO7TnfZj3HzuJknZc0aAlEwEALw_wcB,
-USB_C_Receptable_USB2.0_14P,R243050,1,105,105,https://robu.in/product/1-month-warranty-1003/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWfl8if6hvNMNUuoxmtibwOzA&gclid=Cj0KCQiAhtvMBhDBARIsAL26pjF0qUTtY9Ya9r1tk6jiAz737OW9ZTQ_AUxVfriJZohAO9WPlj1wUN8aAsRQEALw_wcB,
-LED,827881,1,0.97 ,0.97 ,https://robu.in/product/0603-surface-mount-led-orange-50-pcs/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWfl8if6hvNMNUuoxmtibwOzA&gclid=Cj0KCQiAhtvMBhDBARIsAL26pjHVOfsd4-BPWhUZLQe7xlFrLNnLBRZeSlZggs9krg-HiZPu3t-f0u8aAnWWEALw_wcB,
-Capacitors,1547051,10,2.08,20.8,https://robu.in/product/cc0603krx7r8bb103-yageo-cap-smd-mlcc-10000-pf-25-v-0603-1608-metric-%C2%B1-10-x7r-cc-series-pack-of-10/,
-Resistors,572261,10,0.35,3.5,https://robu.in/product/1k-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWfl8if6hvNMNUuoxmtibwOzA&gclid=Cj0KCQiAhtvMBhDBARIsAL26pjHK2HH-sff2romu_82aKRE2UJniaADfgD8J1Pz63CG7kkfy-4yxLA8aAtSyEALw_wcB,
-Switch,R196200,2,1.63 ,3.26,https://robu.in/product/ts-kg09-at38f-hanbo-50ma-4-5mm-100m%CF%89-12v-250gf-4-5mm-3-8mm-round-button-direct-insert-spst-plugin-tactile-switches-rohs/,
-Crystal Oscillator,087-H6OSC-STU-12.288M,1,11.89,11.89,https://evelta.com/hc-49smd-12-288mhz-20pf-10-ppm-2pad-smd-smt-quartz-crystal/,
-Mounting Hole,not included,4,not included,not included,not included,
+Reference,Value,SKU,Qty,Unit Price,Total Amt.,Link,Vendor,Footprint
+U5,STM32F103C8Tx,ST2103SD0969,1,118.75,118.75,https://sharvielectronics.com/product/stm32f103c8t6-arm-microcontroller-lqfp-48-package/,Sharvi Electronics,Package_QFP:LQFP-48_7x7mm_P0.5mm
+U4,AS5600,ST2010SM1805,1,135.91,135.91,https://sharvielectronics.com/product/as5600-12-bit-magnetic-encoder-sensor-module/,Sharvi Electronics,AS5600:SOIC8
+U6,AP2112K-3.3,ST2009SD0350*,1,6.75,6.75,https://sharvielectronics.com/product/ams1117-3-3-3-3v-1a-voltage-regulator-ic-sot-223-package/,Sharvi Electronics,Package_TO_SOT_SMD:SOT-23-5
+J6,USB_C_Receptacle_USB2.0_14P,R243050,1,105,105,https://robu.in/product/1-month-warranty-1003/,Robu,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12
+Y2,8MHz Crystal,ST2103SD0980,1,7.65,7.65,https://sharvielectronics.com/product/hc49-u-10mhz-surface-mount-crystal-oscillator-10mhz-crystal/,Sharvi Electronics,Crystal:Crystal_SMD_HC49-SD
+D1,LED,827881,1,0.97,0.97,https://robu.in/product/0603-surface-mount-led-orange-50-pcs/,Robu,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+"SW2,SW3",SW_Push,,,,,https://robu.in/product/ts-kg09-at38f-hanbo-50ma-4-5mm-100m%CF%89-12v-250gf-4-5mm-3-8mm-round-button-direct-insert-spst-plugin-tactile-switches-rohs/,,TS09-63-25-WT-160-SMT-TR
+"C7,C8,C9,C11,C14,C15",100nF,1547051,6 ( pack of 10),2.08,20.8,https://robu.in/product/cc0603krx7r8bb103-yageo-cap-smd-mlcc-10000-pf-25-v-0603-1608-metric-%C2%B1-10-x7r-cc-series-pack-of-10/,Robu,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C10,20pF,ST2103SD2102*,1,2.15,2.15,https://sharvielectronics.com/product/22pf-0-022nf-100v-capacitor-5-tolerance-cc0603jrnpo0bn220-0603-package/,Sharvi Electronics,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C13,22pF,ST2103SD2102,1,2.15,2.15,https://sharvielectronics.com/product/22pf-0-022nf-100v-capacitor-5-tolerance-cc0603jrnpo0bn220-0603-package/,Sharvi Electronics,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+"R1,R9",10k,582314,2,0.35,0.7,https://robu.in/product/10k-ohm-0-25w-metal-film-resistor-pack-of-100/,Robu,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R7,R13",4.7k,ST2009SD0415,2,0.85,1.7,https://sharvielectronics.com/product/4-7k-ohm-1-10-watt-resistor-1-tolerance-0603saf4701t5e-0603-package/,Sharvi Electronics,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+"R8,R11",5k1,ST2009SD0557,2,0.85,1.7,https://sharvielectronics.com/product/5-1k-ohm-1-10-watt-resistor-1-tolerance-rc0603fr-075k1l-0603-package/,Sharvi Electronics,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R16,2.2k,TIFCB1200,1(Pack of 10),24,24,https://robocraze.com/products/2-2k-ohm-resistor-pack-of-10?variant=40194236743833&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOooZ8YUPaK6IVqrQw4aprpG4fSf3IBOsBnniNPM82rwZ-awLXbzrYdw,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+J1,Conn_01x04,ST2136CO7400,1,2.15,2.15,https://sharvielectronics.com/product/4x1-4pin-male-square-straight-header-connector-11mm-height-2-54mm-pitch/,Sharvi Electronics,Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical
+J2,Conn_01x04_Pin,ST2136CO7400,1,2.15,2.15,https://sharvielectronics.com/product/4x1-4pin-male-square-straight-header-connector-11mm-height-2-54mm-pitch/,Sharvi Electronics,Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical
+J5,Conn_01x04,ST2136CO7400,1,2.15,2.15,https://sharvielectronics.com/product/4x1-4pin-male-square-straight-header-connector-11mm-height-2-54mm-pitch/,Sharvi Electronics,Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical
+,,,,,,,,
+,,,,,434.68,,,
